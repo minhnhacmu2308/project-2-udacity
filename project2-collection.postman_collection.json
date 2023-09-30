@@ -1,0 +1,47 @@
+{
+	"info": {
+		"_postman_id": "7341418f-652f-4745-a77e-f0bf0b0ee0d7",
+		"name": "project2-collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "11995764"
+	},
+	"item": [
+		{
+			"name": "http://project-2-udacity-dev.us-east-1.elasticbeanstalk.com/filteredimage?image_url=https://d1hjkbq40fs2x4.cloudfront.net/2017-08-21/files/landscape-photography_1645.jpg",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InVzZXIiLCJpYXQiOjE2OTUyMTk4Njd9.7JiH_TvGiY5Fv4SQ8D9ZczvirBhJG9xOk586Xk0kuVk",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://project-2-udacity-dev.us-east-1.elasticbeanstalk.com/filteredimage?image_url=https://d1hjkbq40fs2x4.cloudfront.net/2017-08-21/files/landscape-photography_1645.jpg",
+					"protocol": "http",
+					"host": [
+						"project-2-udacity-dev",
+						"us-east-1",
+						"elasticbeanstalk",
+						"com"
+					],
+					"path": [
+						"filteredimage"
+					],
+					"query": [
+						{
+							"key": "image_url",
+							"value": "https://d1hjkbq40fs2x4.cloudfront.net/2017-08-21/files/landscape-photography_1645.jpg"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
